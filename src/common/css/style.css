@@ -1,0 +1,216 @@
+* {
+                                  margin: 0;
+                                  padding: 0;
+                              }
+body {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    font-size: 1em;
+    font-weight: normal;
+}
+header {
+    margin-bottom: 50px;
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    border-radius: .25rem;
+}
+.alert p {
+    line-height: 200%;
+}
+.alert-fail {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    margin: 0.1rem;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+a.btn {
+    text-decoration: none;
+}
+.btn-fail {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.navbar {
+    overflow: hidden;
+}
+.navbar .navbar-brand {
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar .navbar-nav {
+    float: left;
+    margin-left: 20px;
+}
+.navbar .navbar-nav .nav-item {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+}
+.navbar .navbar-nav .nav-item a {
+    display: block;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.navbar .navbar-nav .nav-item a {
+    background-color: #ffffff;
+    color: #000000;
+}
+.navbar .navbar-nav .nav-item a:hover,
+.navbar .navbar-nav .nav-item ~ .active a:hover {
+    background-color: #1A7DD7;
+    color: #f3f3f3;
+}
+.navbar .navbar-nav .nav-item ~ .active a {
+    background-color: #03275A;
+    color: #f3f3f3;
+}
+.navbar .navbar-memberinfo {
+    float: right;
+    margin: 10px 20px;
+    padding: 5px;
+    overflow: hidden;
+}
+.navbar .navbar-memberinfo a {
+    text-decoration: none;
+}
+.navbar .navbar-memberinfo .nav-member {
+    display: inline;
+    margin-right: 10px;
+}
+.navbar .navbar-memberinfo .nav-member_id {
+    font-weight: bold;
+}
+.navbar .navbar-memberinfo .nav-logout {
+    display: inline;
+    margin-left: 10px;
+}
+.navbar .navbar-memberinfo .nav-login {
+    display: inline;
+}
+
+#body-content {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 98%;
+    margin: 0 auto;
+}
+.content .content-heading {
+    border-bottom: 1px solid #cdcdcd;
+    margin: 20px 0;
+    padding: 0;
+}
+.content .content-heading .content-title {
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+    border-bottom: 1px solid #1A7DD7;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: -1.2px;
+}
+.content .content-body {
+    margin: 20px 0;
+}
+
+/* Style related to table tag */
+table {
+    width: 100%;
+}
+table tr th,
+table tr td {
+    padding: 10px 1%;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+table tfoot tr td {
+    text-align: center;
+    border-bottom: none;
+}
+.table-record tbody tr th {
+    width: 20%;
+    font-size: 1.2em;
+}
+.table-record tbody tr td {
+    width: 80%;
+}
+.table-record tbody input,
+.table-record tbody select {
+    width: 100%;
+    font-size: 1em;
+}
+
+input,
+select {
+    padding: 0.3rem;
+}
+input:focus,
+select:focus {
+    border: 2px solid #1A7DD7;
+}
+input:invalid,
+select:invalid {
+    border: 2px solid #ff0000;
+}
+input[readonly],
+input:disabled,
+select[readonly],
+select:disabled {
+    background-color: #ccc;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 50px 30px;
+    background-color: #333;
+    color: #f3f3f3;
+}

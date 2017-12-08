@@ -1,0 +1,4 @@
+.table-list thead tr th:first-child,
+.table-list tbody tr td:first-child {
+    display: none;
+}

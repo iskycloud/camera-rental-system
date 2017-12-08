@@ -1,0 +1,40 @@
+#login {
+    margin: 20px auto;
+    width: 60%;
+    min-width: 480px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#login tbody input {
+    width: 90%;
+    font-size: 1em;
+}
+#login tfoot input {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+#login table {
+    width: 100%;
+    padding: 20px;
+}
+#login table tr td {
+    padding: 10px 0;
+}
+#login table tbody tr th {
+    width: 20%;
+}
+#login table tbody tr td {
+    width: 80%;
+}
+#login table tbody tr:last-child th,
+#login table tbody tr:last-child td {
+    border-bottom: none;
+}
+#login table tfoot tr td {
+    width: 100%;
+}
